@@ -20,3 +20,17 @@ Previously given at [NHS Digital][] and [Sheffield Ruby User Group][], where
 [NHS Digital]: https://digital.nhs.uk
 [Sheffield Ruby User Group]: https://shrug.org/meetings/shrug-105/
 [it was filmed]: https://youtu.be/QTcXDQpwlps
+
+## [Yet Another Intro to AI](/intro-to-ai)
+
+> What do we mean when we talk about AI? What have thoughtbot been doing?
+> What's new? What problems should we avoid?
+
+This was originally based on the idea of covering "trends, opportunities and
+challenges" in AI/ML projects, so it sets a little scene for what that means,
+talks about common problems and goes into some detail on some work we've been
+doing recently.
+
+Previously given at a lunch and learn at [Forward Partners][].
+
+[Forward Partners]: https://forwardpartners.com
