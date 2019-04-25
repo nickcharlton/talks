@@ -7,23 +7,26 @@
 # Hi, I'm Nick
 
 ^ I’m a developer at thoughtbot. We’re a consultancy that works with a
-broadrange of clients, some small, some quite large (like who I’m working
-with at the moment!).
+broad range of clients, some small, some quite large.
 
-^ We’re mostly known for a mix of our blog, Giant Robots, and our open source
-work. For the past couple of years, I’ve taken over maintaining a couple of
-those open source projects and that’s what I spend nearly all of my non-client
-work time on.
+^ You might know thoughtbot from our blog or our open source work. We've done a 
+lot in the Ruby community. For the past couple of years, I’ve taken over
+maintaining a couple of those open source projects and that’s what I spend
+nearly all of my non-client work time on.
+
+^ I also went to Uni here.
 
 ---
 
-## Investment Days
+## Investment Time
 
-^ By “non-client time”, I mean investment days. We have a day a week, typically
-Fridays, in which to work on projects which invest in ourselves, the company or
-the community as a whole. As a 15 year-old company, this hasn’t always been the
-case; back when we’d started a lot of our early open source efforts it was
-mostly between projects and in evenings or weekends.
+^ By “non-client time”, I mean investment days. As a consultancy, we work in 4 
+day weeks. The remaining day, typically Fridays, in which to work on projects 
+which invest in ourselves, the company or the community as a whole.
+
+^ As a 15 year-old company, this hasn’t always been the case; back when we’d 
+started a lot of our early open source efforts it was mostly between projects 
+and in evenings or weekends. I’ll come back to this later on.
 
 ---
 
@@ -34,41 +37,37 @@ specific language approach to building an admin interface in a Rails app.
 
 ---
 
-![inline](images/shoulda-matchers-repo.png)
-
-^ ... `shoulda` which makes writing some forms of tests more concise...
-
----
-
 ![inline](images/appriasal-repo.png)
 
 ^ ...and `appraisal` which makes it easier to test against different
 dependency versions in Ruby.
 
-^ Both `administrate` and `shoulda` are often used on internal Rails projects
-and we don’t really know how it’s being used or by how much. But, I often
-see `appraisal` on other open source projects I come across.
+^ `administrate` is often used on internal Rails projects and we don’t really
+know how it’s being used or by how much. But, I often see `appraisal` on other
+open source projects I come across.
 
 ^ As a maintainer, I think I’m pretty bad at it, but somehow people keep using
-all of them. If you opened an issue, or contributed a PR in the last month or
-so, I’ve likely still not seen it.  It’s a bit like my email inbox…
+all of them. If you opened an issue, or contributed a PR in the last few months
+or so, I’ve likely still not seen it. It’s a bit like my email inbox…
 
 ---
 
 # A Brief History of Open Source
 
-^ But before we go into that, let’s talk about what I mean by “open source”. 
+^ But before we go into that, let’s talk about what I mean by “open source”.
 
 ^ Nearly all, if not actually _all_ software is built on a foundation of
-freely available code that’s written by and maintained by communities of
+freely available code that’s written and maintained by communities of
 people all around the world.
+
+^ 56%
 
 ---
 
 ![inline](images/administrate-pr.png)
 
 ^ When we think about “open source” now, we probably think of GitHub with
-it’s issues, pull requests, forking and so on. But for a long time this wasn’t
+issues, pull requests and forking. But for a long time this wasn’t
 the centre of everything. Projects have been built around mailing lists,
 forums, blogs and just email.
 
@@ -108,20 +107,20 @@ over email, for example.
 usual job), but the vast majority do so in their own free time. Most of us who
 use Open Source software just use it as is: many libraries we use without
 thinking of contributing back, often because we never need anything extra from
-it. 
+it.
 
-^ I’ve been doing this a lot lately on my current client project: we’re
-building an Electron app, with React, some Node.js and others and so far I’ve
-not needed to contribute to the upstream projects.
+^ This is definitely the case for much of my work: most of what I build day to
+day is built on open source and I rarely need to open an issue, or make a
+change. Even when I want to!
 
 ^ People maintain or contribute to open source software for various reasons.
 Sometimes it’s marketing, sometimes it’s a company built around a project,
-some times it’s just fun to collaborate with people asynchronously all over
+sometimes it’s just fun to collaborate with people asynchronously all over
 the world.
 
 ^ Overall though, the more people that contribute to open source software,
-the more open source software gets better and so do those contributing to
-open source,
+the more open source software gets better and so does everyone contributing to
+open source.
 
 ^ As someone who’s contributed to several projects, I’ve seen lots of
 different ways of approaching problems, this exposure has made me a better
@@ -133,13 +132,11 @@ software developer.
 
 ^ Of most of the projects I now maintain, I didn’t start them. Of the projects
 I have started, they’ve mostly helped just me and a handful of other people.
-I’ve written a few API clients, maintained my `dotfiles` for nearly a decade
-at this point and so on.
 
 ^ So, whilst I can’t tell you much about how to make projects popular, that’s
 not where much of the labour in open source really is. It’s mostly in keeping
-projects going. Reviewing pull requests, replying to issues, setting the 
-direction and building a community.
+projects going. Reviewing code, responding to issues, setting the direction and
+building a community.
 
 ^ All I do know is that popularity is some vague combination of luck and
 timing. And you really can’t predict when either is going to happen.
@@ -154,10 +151,8 @@ issue thread.
 
 ^ It was something along the lines of: “is this still maintained?” at the
 light end, to implying some form of hostile neglect on the other. In practice,
-the original maintainer had just moved jobs …in this case to the US form of GDS.
-
-^ Others had tried too, but somehow my efforts stuck compared to those and I
-got into it much more deeply than other’s had been able to.
+the original maintainer had just moved jobs …in this case to the US equivalent
+of GDS.
 
 ---
 
@@ -184,8 +179,13 @@ it to your existing Rails application, then use the generators to build
 dashboards for your models. It tries to avoid as much magic as it can whilst
 still being helpful.
 
-^ You should be able to override bits of dashboards as with any other Rails
-controller, because fundamentally that’s what they are.
+^ It's like having hundreds of stakeholders, some of whom you only hear from 
+once, some of whom have have requests which are reasonable …but from the wrong 
+position and you'll have to let them down gently.
+
+^ But mostly, it's a matter of running a project in the most ideal way you can. 
+Building a constructive code review environment, deploying regularly, making 
+decisions in the open and fixing issues in the shortest time you can.
 
 ---
 
@@ -212,9 +212,9 @@ just different metrics by which we can track things.
 
 ^ Additionally, as a maintainer you will feel a certain obligation to your
 users and contributors, sometimes this feeling is at odds with the rest of
-your life and if you don’t feel like you can step away, you are very likely to 
+your life and if you don’t feel like you can step away, you are very likely to
 overwork to keep up with everything. If you’re not careful this can lead to
-maintainer burnout.
+burnout.
 
 ---
 
@@ -232,8 +232,8 @@ health. Nadia Eghbal has written about this extensively.
 ^ I previously mentioned our investment time as how I spend time working on
 open source. Unfortunately, it’s never quite that simple.
 
-^ In practice, there’s always other bits I need to do on a Friday. Be it team
-retros, interviewing, other things I might wish to look at, etc. So I might
+^ In practice, there’s always other bits I need to do on a Friday. Be it office
+retros, interviewing people, other things I'm interested in etc. So I might
 end up with perhaps a morning a week of time to really spend. This means that
 you always look at things at other times: usually an evening or two a week.
 
@@ -250,6 +250,9 @@ specifically allocating time to ensure they're contributing back, too.
 inevitably something will be slightly broken, or now have a deprecation
 warning and we’ll need to fix it and cut a new release.
 
+^ When there's a backlog of a lot of code to review, that can feel like a 
+mountain you'll never climb.
+
 ---
 
 > Then, don’t get your hopes up! Unless you have a “Code Red, Mission Critical,
@@ -263,8 +266,8 @@ warning and we’ll need to fix it and cut a new release.
 
 [Rails contribution guide]: https://guides.rubyonrails.org/contributing_to_ruby_on_rails.html
 
-
-^ Something about large companies taking liberties
+^ But, like the Rails contribution guide says: open source is as much about
+helping yourself as it is expecting to be helped.
 
 ---
 
@@ -278,12 +281,13 @@ that the `C` it’s written in is not the easiest to understand.
 ^ This provided a great example of the unseen infrastructure that we’re all
 reliant on. Your phone includes OpenSSL, so does Ruby, Python and Node.js.
 Unless you’ve had to make an SSL certificate, you’ve probably not considered
-it’s existence, much less it’s pervasiveness. I certainly hadn’t.
+it’s existence, much less it’s pervasiveness. I certainly hadn’t realised quite
+how widespread it really is.
 
-^ This is a common trend across technology as a whole. Indeed, it’s a
-quintessential example of the “tragedy of the commons”. We’re all at some
-point a free-rider. We’re using resources shared among everyone, but rarely
-contributing back. There’s always someone who will, right? 
+^ This is a common trend across technology as a whole. It’s an example of the
+“tragedy of the commons”. We’re all at some point a free-rider. We’re using
+resources shared among everyone, but rarely contributing back. There’s always
+someone who will, right? 
 
 ---
 
@@ -307,6 +311,9 @@ having them come back in the future with something new.
 
 # How to make things better
 
+^ But how can we make this better? Some of it is to do with financing …mostly 
+of time. But some can be fixed with better tooling:
+
 ---
 
 ## Octobox
@@ -319,11 +326,9 @@ having them come back in the future with something new.
 
 ![inline](images/issue-templates.png)
 
-^ Ask for demo apps which show off an issue
-
 ---
 
-## Probot
+## Probot & GitHub Actions
 
 ![inline](images/probot.png)
 
@@ -356,8 +361,8 @@ is important too.
 the project. Perhaps that might change in the future, and that's okay too.
 
 ^ Jessie Frazzelle has a great post on this where she talks about ways to
-close issues: ego stoke and close, close early, push to try again, taking over
-their patch.
+close issues: the ego stoke and close, close early, push to try again, taking
+over their patch.
 
 ---
 
@@ -372,47 +377,22 @@ encourage deeper contributions, and more importantly take away the interesting
 part of solving a problem: figuring it out, breaking it down _then_ writing
 the code.
 
-^ Open Open Source
-
 ---
 
 ## Funding Open Source
 
----
+^ Funding is about time and money …and we know that one is basically the other.
 
-### The Community Compact
+^ It's about coming up with a better way to compensate people for giving up 
+their time, which makes it more sustainable.
 
-^ Last month, Adam Jacob, the CTO of the company behind Chef (a configuration
-management tool) described a new sort of license called The Community Compact.
+^ Companies should allocate time: _you_ should allocate yourself time to fit 
+contributing into your normal work cycle,
 
-^ The purpose is to push for a better relationship between companies trying to
-make money from software and the, sometimes opposing, groups contributing
-changes.
+^ We can start companies that include a way to fund open source,
 
-^ The concept centres around founding a business to contain the project
-itself. Subsequently different licenses can be sold for consultancies, hosted
-services or those requiring a support contract. The idea here being that
-someone building a consulting business around a technology would contribute
-back, either financially, with code contributions or perhaps both.
-
-^ I think this is quite an interesting concept. It acknowledges that,
-fundamentally we’re a community of people building something and uses social
-pressure to try to enforce compliance. This is a social contract that we’re
-all familiar with, be it at an event’s code of conduct or how we behave when
-we’re in the pub.
-
----
-
-### License Zero
-
-^ A slightly older concept is Licence Zero. It describes a derivative version
-of the BSD license (one of those most permissive open source licenses) which
-includes a clause on payment on for-profit use.
-
-^ Someone using a project for-profit would have 90-days to use it before
-committing to paying for a commercial license. The idea here is that another
-open source project would still be able to use it, but someone making money
-from the use would not.
+^ Existing companies should be better open source citizens: you're built on it, 
+play fair
 
 ---
 
@@ -428,9 +408,23 @@ make the business sustainable.
 
 ---
 
+### Open Source, paid hosted
+
+^ Earlier I mentioned Octobox. This is the concept they're now following. The
+project itself is open source, but there's a paid hosted version.
+
+^ This is what I use and it works well for me. If you wanted to host it 
+yourself you could and it's well documented.
+
+---
+
 ### Alternative Models
 
 ^ Patreon, Open Collective, Tidelift
+
+^ But, in general. Big projects can structure themselves better, but our own 
+contributions make small projects so much better and that's really where we can 
+make a difference.
 
 ---
 
@@ -450,6 +444,7 @@ make the business sustainable.
 * [Octobox](https://octobox.io)
 * [GitHub: Issue Templates](https://blog.github.com/2016-02-17-issue-and-pull-request-templates/)
 * [Probot: Stale](https://probot.github.io/apps/stale/)
+* [GitHub Actions](https://github.com/features/actions)
 
 ---
 
@@ -460,5 +455,3 @@ make the business sustainable.
 https://nickcharlton.net
 
 https://thoughtbot.com/london
-
-tbot.io/oss-talk-feedback
