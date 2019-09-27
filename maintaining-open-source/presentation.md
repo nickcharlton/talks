@@ -7,33 +7,32 @@
 # Hi, I'm Nick
 
 ^ I’m a developer at thoughtbot. We’re a consultancy that works with a
-broad range of clients, some small, some quite large.
+broad range of clients, some small, some quite large and we've collaborated on
+a few projects with you folks, too.
 
-^ You might know thoughtbot from our blog or our open source work. We've done a 
+^ You might know thoughtbot from our blog or our open source work. We've done a
 lot in the Ruby community. For the past couple of years, I’ve taken over
 maintaining a couple of those open source projects and that’s what I spend
 nearly all of my non-client work time on.
-
-^ I also went to Uni here.
 
 ---
 
 ## Investment Time
 
-^ By “non-client time”, I mean investment days. As a consultancy, we work in 4 
-day weeks. The remaining day, typically Fridays, in which to work on projects 
+^ By “non-client time”, I mean investment days. As a consultancy, we work in 4
+day weeks. The remaining day, typically Fridays, we work on projects
 which invest in ourselves, the company or the community as a whole.
 
-^ As a 15 year-old company, this hasn’t always been the case; back when we’d 
-started a lot of our early open source efforts it was mostly between projects 
-and in evenings or weekends. I’ll come back to this later on.
+^ As a 15 or so year-old company, this hasn’t always been the case; back when
+we’d started, a lot of our early open source efforts were between
+projects and in evenings or weekends. I’ll come back to this later on.
 
 ---
 
 ![inline](images/administrate-repo.png)
 
 ^ I maintain a few popular Ruby gems. `administrate`, which is a non-domain
-specific language approach to building an admin interface in a Rails app. 
+specific language approach to building an admin interface in a Rails app.
 
 ---
 
@@ -48,7 +47,7 @@ open source projects I come across.
 
 ^ As a maintainer, I think I’m pretty bad at it, but somehow people keep using
 all of them. If you opened an issue, or contributed a PR in the last few months
-or so, I’ve likely still not seen it. It’s a bit like my email inbox…
+or so, I’ve likely still not looked at it.
 
 ---
 
@@ -57,10 +56,8 @@ or so, I’ve likely still not seen it. It’s a bit like my email inbox…
 ^ But before we go into that, let’s talk about what I mean by “open source”.
 
 ^ Nearly all, if not actually _all_ software is built on a foundation of
-freely available code that’s written and maintained by communities of
-people all around the world.
-
-^ 56%
+freely available code that’s written and maintained by individuals and
+communities of people all around the world.
 
 ---
 
@@ -111,32 +108,35 @@ it.
 
 ^ This is definitely the case for much of my work: most of what I build day to
 day is built on open source and I rarely need to open an issue, or make a
-change. Even when I want to!
+change. Even if I'd like to contribute back!
 
-^ People maintain or contribute to open source software for various reasons.
+---
+
+### [fit] :money_with_wings: :information_desk_person: :construction_worker:
+
+^ People maintain or contribute to open source software for all sorts of reasons.
 Sometimes it’s marketing, sometimes it’s a company built around a project,
-sometimes it’s just fun to collaborate with people asynchronously all over
-the world.
+sometimes it’s just for the fun of collaborating with people all over the world.
 
 ^ Overall though, the more people that contribute to open source software,
 the more open source software gets better and so does everyone contributing to
-open source.
+it.
 
 ^ As someone who’s contributed to several projects, I’ve seen lots of
-different ways of approaching problems, this exposure has made me a better
-software developer.
+different ways of approaching problems. This exposure has made me a better
+developer.
 
 ---
 
 # Taking over maintaining a project
 
 ^ Of most of the projects I now maintain, I didn’t start them. Of the projects
-I have started, they’ve mostly helped just me and a handful of other people.
+I have started, they’ve mostly helped just me and one or two other people.
 
 ^ So, whilst I can’t tell you much about how to make projects popular, that’s
 not where much of the labour in open source really is. It’s mostly in keeping
-projects going. Reviewing code, responding to issues, setting the direction and
-building a community.
+projects going. Reviewing changes, responding to issues, setting the direction
+and building a community.
 
 ^ All I do know is that popularity is some vague combination of luck and
 timing. And you really can’t predict when either is going to happen.
@@ -150,7 +150,7 @@ with `administrate` after getting annoyed by some grumpy comments left on an
 issue thread.
 
 ^ It was something along the lines of: “is this still maintained?” at the
-light end, to implying some form of hostile neglect on the other. In practice,
+light end, to implying some form of hostile neglect on the other. In reality,
 the original maintainer had just moved jobs …in this case to the US equivalent
 of GDS.
 
@@ -167,7 +167,7 @@ job on fixing a Rails version incompatibility and so on.
 When should the next release be? What should we focus on documenting? What
 can we break? How will I find time to sit through and review this PR properly?
 
-^ Now — some two years later — I’m still pretty much doing all of the same
+^ Now — some three years later — I’m still pretty much doing all of the same
 thing.
 
 ---
@@ -180,8 +180,8 @@ dashboards for your models. It tries to avoid as much magic as it can whilst
 still being helpful.
 
 ^ It's like having hundreds of stakeholders, some of whom you only hear from 
-once, some of whom have have requests which are reasonable …but from the wrong 
-position and you'll have to let them down gently.
+once, some of whom you might have reasonable requests from, but you have to
+let them down gently.
 
 ^ But mostly, it's a matter of running a project in the most ideal way you can. 
 Building a constructive code review environment, deploying regularly, making 
@@ -191,7 +191,7 @@ decisions in the open and fixing issues in the shortest time you can.
 
 # Looking at project health
 
-^ Over those past two years, I’ve begun to get interested in and think a lot
+^ Over those past three years, I’ve begun to get interested in and think a lot
 about what a healthy open source project looks like.
 
 ^ I think there’s two angles to this. One is from a user’s standpoint, and
@@ -208,22 +208,12 @@ just different metrics by which we can track things.
 
 ---
 
-# [fit] :clock12: :pager: :sweat: :put_litter_in_its_place: :ambulance:
-
-^ Additionally, as a maintainer you will feel a certain obligation to your
-users and contributors, sometimes this feeling is at odds with the rest of
-your life and if you don’t feel like you can step away, you are very likely to
-overwork to keep up with everything. If you’re not careful this can lead to
-burnout.
-
----
-
 # [fit] :chart_with_upwards_trend: :scroll: :bow:
 
-^ Fortunately, there’s some documented methodologies for measuring project
+^ Fortunately, there’s some good thinking around how we can measure project
 health. Nadia Eghbal has written about this extensively.
 
-^ an “ideal” (issue zero/pr zero which peaks and closes regularly)
+^ concludes that there's an “ideal” (issue zero/pr zero which peaks and closes regularly)
 
 ---
 
@@ -237,8 +227,18 @@ retros, interviewing people, other things I'm interested in etc. So I might
 end up with perhaps a morning a week of time to really spend. This means that
 you always look at things at other times: usually an evening or two a week.
 
+^ And in between long CI builds
+
 ^ I've heard of organisations doing various things similar to us, but also
 specifically allocating time to ensure they're contributing back, too.
+
+---
+
+![inline](images/stenburg-tweet.png)
+
+[https://twitter.com/bagder/status/1176743528380194817](https://twitter.com/bagder/status/1176743528380194817)
+
+^ Just don't do this.
 
 ---
 
@@ -250,8 +250,8 @@ specifically allocating time to ensure they're contributing back, too.
 inevitably something will be slightly broken, or now have a deprecation
 warning and we’ll need to fix it and cut a new release.
 
-^ When there's a backlog of a lot of code to review, that can feel like a 
-mountain you'll never climb.
+^ We had this recently with Rails 6.0 and Zeitwerk; new autoloading meant that
+the install generator no longer worked.
 
 ---
 
@@ -269,6 +269,18 @@ mountain you'll never climb.
 ^ But, like the Rails contribution guide says: open source is as much about
 helping yourself as it is expecting to be helped.
 
+^ When there's a backlog of a lot of code to review, that can feel like a 
+mountain you'll never climb.
+
+---
+
+# [fit] :clock12: :pager: :sweat: :put_litter_in_its_place: :ambulance:
+
+^ As a maintainer you feel a certain amount of obligation to your users and
+contributors, sometimes this feeling is at odds with the rest of your life and
+if you don’t feel like you can step away, you are very likely to overwork to
+keep up with everything. If you’re not careful you will burn yourself out.
+
 ---
 
 ## Unseen Infrastructure
@@ -284,10 +296,13 @@ Unless you’ve had to make an SSL certificate, you’ve probably not considered
 it’s existence, much less it’s pervasiveness. I certainly hadn’t realised quite
 how widespread it really is.
 
-^ This is a common trend across technology as a whole. It’s an example of the
-“tragedy of the commons”. We’re all at some point a free-rider. We’re using
-resources shared among everyone, but rarely contributing back. There’s always
-someone who will, right? 
+---
+
+## Unseen Infrastructure
+
+^ This is a common trend across technology as a whole. We’re all at some point
+a free-rider among the commons. We’re using resources shared among everyone,
+but rarely contributing back. There’s always someone who will, right? 
 
 ---
 
@@ -311,8 +326,8 @@ having them come back in the future with something new.
 
 # How to make things better
 
-^ But how can we make this better? Some of it is to do with financing …mostly 
-of time. But some can be fixed with better tooling:
+^ But how can we make this better? Some of it is to do with financing.
+But some can be fixed with better tooling:
 
 ---
 
@@ -342,6 +357,8 @@ of time. But some can be fixed with better tooling:
 
 ^ Heroku Review Apps on administrate: it's a website as much as a library
 
+^ Dependabot for keeping dependencies up to date
+
 ---
 
 ## Always be closing
@@ -366,32 +383,19 @@ over their patch.
 
 ---
 
-## Building Communities
-
-![inline](images/sales-funnel.png)
-
-^ Contributors as a sales funnel
-
-^ First time issues: They might cause more “drive-by” contributions than
-encourage deeper contributions, and more importantly take away the interesting
-part of solving a problem: figuring it out, breaking it down _then_ writing
-the code.
-
----
-
 ## Funding Open Source
 
 ^ Funding is about time and money …and we know that one is basically the other.
 
-^ It's about coming up with a better way to compensate people for giving up 
+^ It's about coming up with a better way to compensate people for giving up
 their time, which makes it more sustainable.
 
-^ Companies should allocate time: _you_ should allocate yourself time to fit 
+^ Companies should allocate time: _you_ should allocate yourself time to fit
 contributing into your normal work cycle,
 
 ^ We can start companies that include a way to fund open source,
 
-^ Existing companies should be better open source citizens: you're built on it, 
+^ Existing companies should be better open source citizens: you're built on it,
 play fair
 
 ---
@@ -418,12 +422,27 @@ yourself you could and it's well documented.
 
 ---
 
-### Alternative Models
+### Donations
 
-^ Patreon, Open Collective, Tidelift
+^ GitHub FUNDING.md, Patreon, Open Collective, Tidelift
 
-^ But, in general. Big projects can structure themselves better, but our own 
-contributions make small projects so much better and that's really where we can 
+^ Donations don't work well.
+
+^ As the `curl` author tweet from before shows, companies are terrible at
+donations.
+
+^ But companies are used to support contracts. It's much easier to pay for
+_something_ than it is to donate. So, build in enterprise support!
+
+^ Mike Perham does a great job with Sidekiq. Pro and Enterprise come with
+support.
+
+---
+
+## Alternatives?
+
+^ But, in general. Big projects can structure themselves better, but our own
+contributions make small projects so much better and that's really where we can
 make a difference.
 
 ---

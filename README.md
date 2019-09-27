@@ -14,7 +14,8 @@ I use [Deckset][].
 > easier.
 
 Previously given at [NHS Digital][], [Sheffield Ruby User Group][] (where
-[it was filmed][]) and [FutureSync 2019][] ([where it was filmed again][]).
+[it was filmed][]), [FutureSync 2019][] ([where it was filmed again][]) and [8th
+Light University][].
 
 [Deckset]: https://www.deckset.com
 [NHS Digital]: https://digital.nhs.uk
@@ -22,6 +23,7 @@ Previously given at [NHS Digital][], [Sheffield Ruby User Group][] (where
 [it was filmed]: https://youtu.be/QTcXDQpwlps
 [FutureSync 2019]: https://futuresync.co.uk
 [where it was filmed again]: https://youtu.be/vf67OoRykt0
+[8th Light University]: https://www.meetup.com/8LU-London/events/262595507/
 
 ## [Yet Another Intro to AI](/intro-to-ai)
 
